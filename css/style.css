@@ -1,0 +1,31 @@
+
+  
+  .timer {
+    position: absolute;
+    background: rgba(226, 230, 8, 0.5);
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 2vh;
+    border-radius: 2vh;
+    display: flex;
+    justify-content: space-between;
+    left: 25%;
+  }
+  
+  .field {
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    text-align: center;
+
+  }
+  .value{
+    min-width: 15vh;
+    color: rgb(163, 9, 9);
+    font-size: 15vh;
+  }
+  .label{
+    min-width: 5vh;
+    color: rgb(49, 3, 3);
+    font-size: 5vh;
+  }
